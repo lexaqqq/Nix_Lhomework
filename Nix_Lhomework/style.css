@@ -1,0 +1,72 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.non{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.back{
+    position: absolute;
+    background: rgba(2, 120, 199, 0.788);
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+}
+.content{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: rgb(255,255,255);
+    border: 1px solid black;
+    width: 400px;
+    height: 230px;
+}
+label{
+    text-align: left;
+}
+
+.form_content{
+    margin: 50px 10px;
+ }
+.image{
+    float: left;
+    margin-right: 20px;
+}
+.form{
+    display: table;
+	border: none;
+	border-spacing: 5px;
+}
+.welcome{
+    display: table-row;
+    
+}
+.welcome label{
+    display: table-cell;
+}
+.login{
+    display: table-row;
+}
+.login label{
+    display: table-cell;
+}
+.login input{
+    display: table-cell;
+}
+.password{
+    display: table-row;
+}
+.password label{
+    display: table-cell;
+}
+.password input{
+    display: table-cell;
+}
