@@ -1,0 +1,209 @@
+/* First Task 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 400px;
+}
+.grid-item1{
+    background: rgb(81, 81, 202);
+    opacity: 0.7;
+    border: 4px solid rgb(58, 58, 199);
+    border-radius: 10px;
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+    color: white;
+}
+.grid-item2{
+    background: rgb(241, 159, 172);
+    opacity: 0.7;
+    color: white;
+    border: 4px solid rgb(245, 136, 154);
+    border-radius: 10px;
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
+ */
+
+/* Second Task
+ .grid{
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.item1, .item2, .item3,
+.item4{
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+}
+.item1{
+    justify-items: end;
+}
+.A, .B, .C{
+    padding: 20px 30px;
+    background: rgb(233, 114, 66);
+    border: 1px solid rgb(80, 39, 23);
+}
+.item2{
+    justify-items: start;
+}
+.D, .E, .F{
+    padding: 20px 30px;
+    background: rgb(224, 10, 224);
+    border: 1px solid rgb(124, 6, 124);
+}
+.item3{
+    justify-items: center;
+}
+.G, .H, .I{
+    padding: 20px 30px;
+    background: rgb(104, 214, 53);
+    border: 1px solid rgb(58, 160, 11);
+}
+.item4{
+    justify-items: stretch;
+    grid-column-gap: 10px;
+    text-align: center;
+}
+.J, .K, .L{
+    padding: 20px 30px;
+    background: rgb(92, 92, 204);
+    border: 1px solid rgb(23, 23, 214);
+
+} */
+
+/* Third Task 
+.grid{
+    display:grid; 
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, [col] 100px);
+    grid-template-rows: repeat(5, [row] 100px);
+    justify-content: center;
+    align-content: center;
+    
+}
+.A, .B{
+    background:rgb(219, 8, 219);
+    border:1px solid black;
+}
+.A{
+    grid-column: 2 /3;
+    grid-row: 1 / 2;
+}
+.B{
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+.C, .D{
+    background:rgb(238, 202, 0);
+    border:1px solid black;
+}
+.C{
+    grid-column: 3/4;
+    grid-row: row 1/3 
+}
+.E, .F,.I{
+    background:white;
+    border:1px solid black;
+}
+.E{
+    grid-row:1/2;
+    grid-column: 4/5; 
+}
+.F{
+    grid-row:2/3;
+    grid-column: 4/5; 
+}
+.G{
+    grid-column: 3 / 5;
+    grid-row: 3 / 4; 
+}
+.I{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5; 
+}
+.H{
+    grid-column: 2 / 4;
+    grid-row: 4 / 5; 
+}
+.G, .H{
+    background:rgb(19, 206, 19);
+    border:1px solid black;
+} */
+
+/* Fourth task  
+.grid{
+    display:grid; 
+    grid-gap: 10px;
+    grid-template: 1fr / repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+    align-content: center;
+
+}
+.A, .B, .C,.D,.E,.F,.G,.H,.I,.K,.L,.M,.J{
+    background:rgb(87, 86, 86);
+    border:1px solid black;
+    border-radius:5px;
+    text-align: center;
+}
+.A{
+    grid-column: span 2;
+}
+.G{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.K{
+    grid-column: span 3;
+} */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, minmax(100px, auto));
+    gap:10px;
+  }
+.item{
+    background:rgb(99, 98, 98);
+    border:1px solid black;
+    border-radius:5px;
+    text-align: center;
+    gap:5px;
+}
+.A{
+    grid-column: 1/3;
+}
+.B{
+    grid-column: 4/5;
+}
+.C{
+    grid-row: 2/5;
+}
+.D{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column: 2/5;
+    grid-row: 2/5;
+}
+.subitem{
+    background:rgb(247, 244, 244);
+    border:1px solid black;
+    border-radius:5px;
+    text-align: center;
+
+
+}
+.E{
+    grid-row: 1/4;
+    margin: 10px;
+}
+.G{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    margin: 10px;  
+}
+.F{
+    grid-column: 2/4;
+    margin: 10px;  
+}
+
+  
