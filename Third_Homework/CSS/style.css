@@ -74,7 +74,6 @@
     line-height: 1;
 }
 .footer-links a{
-    color: white;
     text-decoration: none;
 }
 .footer-links a:hover{
@@ -85,3 +84,33 @@
     padding-top: 10px;
     border-radius: 4px;
 }
+footer .bg-dark .theme-button {
+    width: 300px;
+    color: #6653d9;
+    border: 1px solid #6653d9;
+  }
+  
+footer .bg-dark .theme-button::after {
+    background-image: url("/Third_Homework/img/icon/moon.png");
+  }
+  
+footer .bg-dark .theme-button:focus,
+footer .bg-dark .theme-button:hover {
+    color: #ffffff;
+    background-color: #6653d9;
+  }
+
+footer .bg-light .theme-button {
+    color: #9484f2;
+    border: 1px solid #9484f2;
+  }
+  
+footer .bg-light .theme-button::before {
+    background-image: url("img/sun-normal.svg");
+  }
+  
+footer .bg-light .theme-button:focus,
+footer .bg-light .theme-button:hover {
+    color: #17161a;
+    background-color: #9484f2;
+  }
